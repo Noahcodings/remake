@@ -4,6 +4,8 @@ const text =
 const paragraph = text.split("");
 let i = 0;
 
+document.body.style.backgroundColor = "yellow";
+
 function dashOut(arr) {
   if (i < arr.length) {
     document.querySelector(".textCont").textContent += arr[i];
